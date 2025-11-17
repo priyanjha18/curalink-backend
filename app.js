@@ -30,7 +30,7 @@ const store = new MongoDbStore({
 // --------------------------
 app.use(
   cors({
-    origin: "https://curalink-frontend-x8jf.onrender.com", // frontend URL
+    origin: "https://curalink-frontend-x8jf.onrender.com/", // frontend URL
     credentials: true,               // allow cookies
   })
 );
