@@ -3,11 +3,11 @@ const mongoose = require("mongoose");
 const session = require("express-session");
 const path = require("path");
 const MongoDbStore = require("connect-mongodb-session")(session);
-const authRoutes = require("../backend/routes/auth");
+const authRoutes = require("./routes/auth");
 const cors = require("cors");
 const trialRoutes=require("./trial")
-const publicationRoute=require("../backend/routes/pub")
-const expertRoute=require("../backend/routes/experts")
+const publicationRoute=require("./routes/pub")
+const expertRoute=require("./routes/experts")
 const postRoute=require("./routes/post")
 const app = express();
 
